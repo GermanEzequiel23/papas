@@ -1,0 +1,84 @@
+/* cabecera */
+.cabeza{
+    position: absolute;
+    background-color: #56312E;
+    width: 98%;
+    height: 25%;
+    border: 5px solid rgb(240, 180, 124);
+
+}   
+.cabeza img{
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    height: 100%;
+}
+.cabeza h1{
+    font-family:sans-serif;
+    position:relative;
+    color: #EDB663;
+    text-align: center;
+    top: 50%;
+}
+/* pedido cliente */
+.pedido{
+    position: absolute;
+    top: 30%;
+    
+}
+.pedido p{  
+    text-align: start;
+}
+.pedido {
+    width: 400px; /* Ajusta el ancho máximo de la sección según tus necesidades */
+    margin-left: 30px; /* Mueve la sección de pedido a la izquierda */
+    padding: 20px;
+    background-color: #a8958a; /* Cambia el color de fondo a rojo */
+  }
+  
+  .pedido form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .pedido p {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pedido p input[type="text"] {
+    flex-grow: 1;
+  }
+  
+  .pedido input[type="text"] {
+    width: 100%; /* Ajusta el ancho de los campos de texto según tus necesidades */
+    padding: 5px;
+  }
+  
+  .pedido input[type="submit"] {
+    width: auto; /* Ajusta el ancho del botón de envío automáticamente */
+    padding: 10px;
+    background-color: #007bff; /* Cambia el color de fondo según tus necesidades */
+    color: #fff; /* Cambia el color del texto según tus necesidades */
+    border: none;
+    cursor: pointer;
+  }
+  /* historial pedidos */
+  .historial{
+    position: absolute;
+    left: 80%;
+    top: 30%;
+    background-color: #f5d2a5;
+    border:solid;
+    border-color: black;
+    color: #44382f;
+  }
+  .historial input{
+    margin-top: 350px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+  }
+
